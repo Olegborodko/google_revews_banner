@@ -1,0 +1,16 @@
+{
+  "name": "google_revews_banner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "onchange": "^7.1.0"
+  },
+  "scripts": {
+    "watch": "onchange 'css/*.scss' -- npm run css",
+    "css": "sass --no-source-map css/index.scss css/style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
